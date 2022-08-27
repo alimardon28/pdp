@@ -1,0 +1,121 @@
+.header {
+  margin: 0;
+  padding: 46px 0px;
+
+  &__nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav_link {
+    margin-right: 84px;
+  }
+  &__nav_link_img {
+    width: 181px;
+    margin-right: 20px;
+  }
+  &__nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  &__nav_ul_li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav_ul_li_a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav_ul_li_links > img {
+    margin-right: 14px;
+    width: 24px;
+    height: 24px;
+  }
+  &__nav_ul_li_link + &__nav_ul_li_link {
+    margin-left: 30px;
+  }
+  &__nav_ul_li_link {
+    font-weight: 200;
+    color: rgb(174, 174, 174);
+    font-family: sans-serif;
+  }
+  &__nav_ul_li_link:hover {
+    color: #000;
+  }
+  &__nav_button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+  @media screen and (max-width: 769px) {
+    &__nav_link {
+      margin-right: 10px;
+    }
+    &__nav_link_img {
+      width: 131px;
+    }
+  }
+  @media screen and (max-width: 626px) {
+    &__nav_ul {
+      display: none;
+    }
+    &__nav_ul {
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.9);
+    }
+    &__nav_button {
+      display: block;
+    }
+    &__nav_ul_li_links > img {
+      display: none;
+    }
+    &__nav_ul_li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    &__nav_ul_li_a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    &__nav_ul_li_link + &__nav_ul_li_link {
+      margin-left: 0;
+    }
+    &__nav_ul_li_link {
+      margin-bottom: 30px;
+    }
+  }
+}
