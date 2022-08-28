@@ -1,1 +1,203 @@
-/* No CSS *//*# sourceMappingURL=MainTwo.css.map */
+.maintwo {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.maintwo__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.maintwo__left {
+  position: relative;
+  top: 0;
+  padding: 30px 30px 0px 0px;
+  background-color: #faf8f8;
+  cursor: pointer;
+}
+
+.maintwo__left:hover .maintwo__left_bg {
+  background: #27b30e;
+  opacity: 1;
+}
+
+.maintwo__left_hover {
+  padding-top: 100px;
+  cursor: pointer;
+  padding-left: 65px;
+}
+
+.maintwo__left_hover:hover {
+  display: none;
+}
+
+.maintwo__left_hover_img {
+  width: 27px;
+  height: 32px;
+}
+
+.maintwo__left_hover_h2 {
+  margin: 0;
+  padding-top: 25px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.maintwo__left_hover_desc {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 15px;
+  color: #919191;
+  font-family: sans-serif;
+  padding-bottom: 65px;
+}
+
+.maintwo__left_bg {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding-left: 65px;
+}
+
+.maintwo__left_bg_desc {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-bottom: 65px;
+}
+
+.maintwo__left_bg_img {
+  width: 175px;
+  height: 226px;
+}
+
+.maintwo__right {
+  position: relative;
+  top: 0;
+  padding: 30px 30px 0px 0px;
+  background-color: #faf8f8;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.maintwo__right:hover .maintwo__right_bg {
+  background: #27b30e;
+  opacity: 1;
+}
+
+.maintwo__right_hover {
+  padding-top: 100px;
+  padding-left: 65px;
+  cursor: pointer;
+}
+
+.maintwo__right_hover:hover {
+  display: none;
+}
+
+.maintwo__right_hover_img {
+  width: 36px;
+  height: 36px;
+}
+
+.maintwo__right_hover_h2 {
+  margin: 0;
+  padding-top: 25px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.maintwo__right_hover_desc {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 15px;
+  color: #919191;
+  font-family: sans-serif;
+  padding-bottom: 65px;
+}
+
+.maintwo__right_bg {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  padding-left: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.maintwo__right_bg_desc {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-bottom: 65px;
+  margin: 0;
+}
+
+.maintwo__right_bg_img {
+  width: 175px;
+  height: 267px;
+}
+
+.maintwo__right:hover .maintwo__btn_img {
+  color: #26ff00;
+}
+
+.maintwo__btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+}
+
+.maintwo__btn_img {
+  width: 20px;
+  height: 15px;
+}
+/*# sourceMappingURL=MainTwo.css.map */

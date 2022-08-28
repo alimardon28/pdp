@@ -6,7 +6,7 @@ import hq from "../../assets/images/hqdefault.jpg";
 import { useState } from "react";
 
 const MainOne = () => {
-  const [openModal, setOpenModal] = useState(false);
+  const [openModal, setOpenModal] = useState(true);
 
   return (
     <div className="mainone">
@@ -23,7 +23,7 @@ const MainOne = () => {
           <li className="mainone__ul_li">
             <div
               className="mainone__ul_li_box"
-              onClick={(e) => setOpenModal(!openModal)}
+              // onClick={(e) => setOpenModal(!openModal)}
             >
               <img
                 className="mainone__ul_li_videoimg mainone__ul_li_img"
@@ -31,7 +31,7 @@ const MainOne = () => {
                 alt=""
               />
             </div>
-            <dialog className="mainone__ul_li_dialog" open={openModal}>
+            {/* <dialog className="mainone__ul_li_dialog" open={''}>
               <div className="mainone__ul_li_dialog_box">
                 <iframe
                   className="mainone__ul_li_dialog_box_iframe"
@@ -45,7 +45,7 @@ const MainOne = () => {
                 ></iframe>
               </div>
               <button className="mainone__ul_li_dialog_btn">x</button>
-            </dialog>
+            </dialog> */}
           </li>
         </ul>
       </div>
