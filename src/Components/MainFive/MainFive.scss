@@ -1,0 +1,129 @@
+.mainfive {
+  margin: 0;
+  padding-top: 50px;
+
+  &__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 248, 248);
+  }
+  &__ul_li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px 40px 0px 50px;
+  }
+  &__ul_li_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  &__ul_li_left_title {
+    font-family: sans-serif;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  &__ul_li_left_dec {
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #898989;
+  }
+  &__ul_li_left_btn {
+    margin-top: 30px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #898989;
+  }
+  &__ul_li_left_btn_img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+
+  &__ul_li_right {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  &__ul_li_right_img {
+    width: 546px;
+    height: 489px;
+  }
+
+  @media screen and (max-width: 993px) {
+    &__ul_li_right_img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 910px) {
+    &__ul_li_left_dec {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 881px) {
+    &__ul_li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__ul_li_right {
+      float: right;
+    }
+    &__ul_li_right_img {
+      margin-top: 20px;
+      float: right;
+    }
+  }
+  @media screen and (max-width: 678px) {
+    &__ul_li {
+      padding: 40px 30px 0px 40px;
+    }
+    &__ul_li_left_title {
+      font-size: 24px;
+    }
+    &__ul_li_left_dec {
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    &__ul_li {
+      padding: 40px 20px 0px 30px;
+    }
+    &__ul_li_left_title {
+      font-size: 22px;
+    }
+    &__ul_li_left_dec {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    &__ul_li_left_title {
+      font-size: 20px;
+    }
+    &__ul_li_left_dec {
+      font-size: 14px;
+    }
+  }
+}

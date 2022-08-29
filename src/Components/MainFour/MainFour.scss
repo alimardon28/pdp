@@ -35,15 +35,15 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 60px 0px 0px 0px;
+    margin-top: 60px;
+    padding: 0px;
+    background: #fff;
   }
   &__top_ul_li {
     list-style: none;
     padding: 47px 30px 40px 62px;
-    border: 2px solid #f8f8f8;
-    border-bottom: none;
-    background: #fff;
+    box-shadow: 1px 1px 10px #ebebeb;
+    background: rgb(255, 252, 252);
     transition: all 0.3s linear;
     display: flex;
     justify-content: space-between;
@@ -51,6 +51,9 @@
     width: 570px;
     height: 239px;
     cursor: pointer;
+  }
+  &__top_ul_li:hover {
+    background: #fff;
   }
   &__top_ul_li:hover &__top_ul_li_top_btn {
     background: rgb(12, 203, 73);

@@ -57,16 +57,17 @@
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0;
-  padding: 60px 0px 0px 0px;
+  margin-top: 60px;
+  padding: 0px;
+  background: #fff;
 }
 
 .mainfour__top_ul_li {
   list-style: none;
   padding: 47px 30px 40px 62px;
-  border: 2px solid #f8f8f8;
-  border-bottom: none;
-  background: #fff;
+  -webkit-box-shadow: 1px 1px 10px #ebebeb;
+          box-shadow: 1px 1px 10px #ebebeb;
+  background: #fffcfc;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   display: -webkit-box;
@@ -82,6 +83,10 @@
   width: 570px;
   height: 239px;
   cursor: pointer;
+}
+
+.mainfour__top_ul_li:hover {
+  background: #fff;
 }
 
 .mainfour__top_ul_li:hover .mainfour__top_ul_li_top_btn {
