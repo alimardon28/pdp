@@ -118,6 +118,7 @@
     top: 0;
     opacity: 0;
     padding-left: 65px;
+    // padding-bottom: 35px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -135,7 +136,9 @@
     width: 175px;
     height: 267px;
   }
+
   //   maintwo right style end
+
   &__right:hover &__btn_img {
     color: rgb(38, 255, 0);
   }
@@ -159,5 +162,115 @@
   &__btn_img {
     width: 20px;
     height: 15px;
+  }
+
+  @media screen and (max-width: 1141px) {
+    &__left_bg_desc {
+      font-size: 17px;
+    }
+    &__right_bg_desc {
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    &__left_bg {
+      padding-left: 30px;
+    }
+    &__left_bg_desc {
+      font-size: 16px;
+      padding-bottom: 30px;
+    }
+    &__left_bg_img {
+      width: 140px;
+      height: 180px;
+    }
+    &__right_bg {
+      padding-left: 30px;
+    }
+    &__right_bg_desc {
+      padding-bottom: 30px;
+    }
+    &__right_bg_img {
+      width: 140px;
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 719px) {
+    &__container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    &__left {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    &__left_bg_desc {
+      font-size: 20px;
+    }
+    &__left_bg_img {
+      width: 180px;
+      height: 230px;
+    }
+
+    &__right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    &__right_bg_desc {
+      font-size: 20px;
+    }
+    &__right_bg_img {
+      width: 180px;
+      height: 230px;
+    }
+  }
+  @media screen and (max-width: 507px) {
+    &__left_bg_desc {
+      font-size: 17px;
+    }
+    &__left_bg_img {
+      width: 170px;
+      height: 200px;
+    }
+    &__right_bg_desc {
+      font-size: 17px;
+    }
+    &__right_bg_img {
+      width: 170px;
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 507px) {
+    &__left_bg_desc {
+      font-size: 16px;
+    }
+    &__left_bg_img {
+      width: 170px;
+      height: 230px;
+    }
+    &__right_bg_desc {
+      font-size: 16px;
+    }
+    &__right_bg_img {
+      width: 170px;
+      height: 230px;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    &__left_bg_desc {
+      font-size: 15px;
+    }
+    &__left_bg_img {
+      width: 150px;
+      height: 190px;
+    }
+    &__right_bg_desc {
+      font-size: 15px;
+    }
+    &__right_bg_img {
+      width: 150px;
+      height: 190px;
+    }
   }
 }

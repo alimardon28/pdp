@@ -80,19 +80,19 @@
     &__nav_ul {
       display: none;
     }
-    &__nav_ul {
-      display: block;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      min-height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.9);
-    }
+    // &__nav_ul {
+    //   display: block;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   flex-direction: column;
+    //   min-height: 100vh;
+    //   position: fixed;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   background: rgba(0, 0, 0, 0.9);
+    // }
     &__nav_button {
       display: block;
     }

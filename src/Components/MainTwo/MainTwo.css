@@ -200,4 +200,123 @@
   width: 20px;
   height: 15px;
 }
+
+@media screen and (max-width: 1141px) {
+  .maintwo__left_bg_desc {
+    font-size: 17px;
+  }
+  .maintwo__right_bg_desc {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .maintwo__left_bg {
+    padding-left: 30px;
+  }
+  .maintwo__left_bg_desc {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .maintwo__left_bg_img {
+    width: 140px;
+    height: 180px;
+  }
+  .maintwo__right_bg {
+    padding-left: 30px;
+  }
+  .maintwo__right_bg_desc {
+    padding-bottom: 30px;
+  }
+  .maintwo__right_bg_img {
+    width: 140px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .maintwo__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .maintwo__left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .maintwo__left_bg_desc {
+    font-size: 20px;
+  }
+  .maintwo__left_bg_img {
+    width: 180px;
+    height: 230px;
+  }
+  .maintwo__right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .maintwo__right_bg_desc {
+    font-size: 20px;
+  }
+  .maintwo__right_bg_img {
+    width: 180px;
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .maintwo__left_bg_desc {
+    font-size: 17px;
+  }
+  .maintwo__left_bg_img {
+    width: 170px;
+    height: 200px;
+  }
+  .maintwo__right_bg_desc {
+    font-size: 17px;
+  }
+  .maintwo__right_bg_img {
+    width: 170px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .maintwo__left_bg_desc {
+    font-size: 16px;
+  }
+  .maintwo__left_bg_img {
+    width: 170px;
+    height: 230px;
+  }
+  .maintwo__right_bg_desc {
+    font-size: 16px;
+  }
+  .maintwo__right_bg_img {
+    width: 170px;
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .maintwo__left_bg_desc {
+    font-size: 15px;
+  }
+  .maintwo__left_bg_img {
+    width: 150px;
+    height: 190px;
+  }
+  .maintwo__right_bg_desc {
+    font-size: 15px;
+  }
+  .maintwo__right_bg_img {
+    width: 150px;
+    height: 190px;
+  }
+}
 /*# sourceMappingURL=MainTwo.css.map */

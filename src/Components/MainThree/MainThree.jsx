@@ -4,7 +4,9 @@ import "./MainThree.scss";
 const MainThree = () => {
     return (
         <div className='mainthree'>
-
+            <div className="container">
+                
+            </div>
         </div>
     );
 }

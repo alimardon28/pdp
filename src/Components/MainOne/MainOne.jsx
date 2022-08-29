@@ -6,7 +6,7 @@ import hq from "../../assets/images/hqdefault.jpg";
 import { useState } from "react";
 
 const MainOne = () => {
-  const [openModal, setOpenModal] = useState(true);
+  // const [openModal, setOpenModal] = useState(true);
 
   return (
     <div className="mainone">
