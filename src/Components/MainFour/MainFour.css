@@ -1,1 +1,300 @@
-/* No CSS *//*# sourceMappingURL=MainFour.css.map */
+.mainfour {
+  margin: 0;
+  padding-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainfour__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #faf8f8;
+}
+
+.mainfour__top_box {
+  padding: 60px 60px 0px 60px;
+  margin: 0;
+}
+
+.mainfour__top_box_title {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.mainfour__top_box_desc {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 23px;
+  color: #949494;
+}
+
+.mainfour__top_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 60px 0px 0px 0px;
+}
+
+.mainfour__top_ul_li {
+  list-style: none;
+  padding: 47px 30px 40px 62px;
+  border: 2px solid #f8f8f8;
+  border-bottom: none;
+  background: #fff;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 570px;
+  height: 239px;
+  cursor: pointer;
+}
+
+.mainfour__top_ul_li:hover .mainfour__top_ul_li_top_btn {
+  background: #0ccb49;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.mainfour__top_ul_li_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainfour__top_ul_li_top_desc {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.mainfour__top_ul_li_top_btn {
+  margin: 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #f8f8f8;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.mainfour__top_ul_li_top_btn_img {
+  width: 24px;
+  height: 24px;
+}
+
+.mainfour__top_ul_li_bottom {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainfour__top_ul_li_bottom_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainfour__top_ul_li_bottom_box_span {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #989898;
+}
+
+.mainfour__top_ul_li_bottom_box_num {
+  margin: 0;
+  padding-top: 16px;
+  font-size: 18px;
+  color: #424242;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.mainfour__top_ul_li_bottom_images_img {
+  width: 121px;
+  height: 41px;
+}
+
+@media screen and (max-width: 1191px) {
+  .mainfour__top_ul_li {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 1137px) {
+  .mainfour__top_ul_li {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+  .mainfour__top_ul_li {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 953px) {
+  .mainfour__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainfour__top_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainfour__top_ul_li {
+    width: 570px;
+  }
+  .mainfour__top_box {
+    padding: 50px 50px 0px 50px;
+  }
+  .mainfour__top_box_title {
+    font-size: 25px;
+  }
+  .mainfour__top_box_desc {
+    font-size: 16px;
+    padding-top: 25px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .mainfour__top_ul_li {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .mainfour__top_ul_li {
+    width: 440px;
+  }
+  .mainfour__top_ul_li_bottom_images_img {
+    width: 80px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .mainfour__top_ul_li {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mainfour__top_ul_li {
+    width: 330px;
+  }
+  .mainfour__top_ul_li_bottom_images_img {
+    width: 50px;
+    height: 20px;
+  }
+  .mainfour__top_box_title {
+    font-size: 23px;
+  }
+  .mainfour__top_box_desc {
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .mainfour__top_ul_li {
+    width: 300px;
+  }
+  .mainfour__top_ul_li_bottom_images_img {
+    width: 40px;
+    height: 15px;
+  }
+}
+/*# sourceMappingURL=MainFour.css.map */

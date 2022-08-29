@@ -1,4 +1,5 @@
 import React from 'react';
+import MainFour from '../../Components/MainFour/MainFour';
 import MainOne from '../../Components/MainOne/MainOne';
 import MainThree from '../../Components/MainThree/MainThree';
 import MainTwo from '../../Components/MainTwo/MainTwo';
@@ -10,6 +11,7 @@ const Home = () => {
             <MainOne/>
             <MainTwo/>
             <MainThree/>
+            <MainFour/>
 
         </div>
     );
