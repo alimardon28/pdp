@@ -184,7 +184,7 @@
   }
   @media screen and (max-width: 426px) {
     &__top_ul_li {
-      width: 330px;
+      width: 100%;
     }
     &__top_ul_li_bottom_images_img {
       width: 50px;
@@ -200,9 +200,6 @@
     }
   }
   @media screen and (max-width: 376px) {
-    &__top_ul_li {
-      width: 300px;
-    }
     &__top_ul_li_bottom_images_img {
       width: 40px;
       height: 15px;
