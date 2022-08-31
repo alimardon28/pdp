@@ -1,9 +1,8 @@
 .header_bg {
-  background: #fff;
-  -webkit-transition: all 0.4 ease-in;
-  transition: all 0.4 ease-in;
-  -webkit-box-shadow: 2px 2px 20px #cdcdcd;
-          box-shadow: 2px 2px 20px #cdcdcd;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  -webkit-box-shadow: 1px 1px 4px #cdcdcd;
+          box-shadow: 1px 1px 4px #cdcdcd;
 }
 
 .header {
@@ -14,8 +13,9 @@
   left: 0;
   width: 100%;
   z-index: 9999;
-  -webkit-transition: all 0.4 ease-in;
-  transition: all 0.4 ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  background: #fff;
 }
 
 .header__nav {
@@ -226,6 +226,9 @@
   }
   .header__nav_ul_li_link {
     margin-bottom: 30px;
+  }
+  .header__nav_link_img {
+    width: 100px;
   }
 }
 

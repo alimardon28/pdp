@@ -1,7 +1,6 @@
 .header_bg {
-  background: #fff;
-  transition: all 0.4 ease-in;
-  box-shadow: 2px 2px 20px rgb(205, 205, 205);
+  transition: all 0.4s ease-in;
+  box-shadow: 1px 1px 4px rgb(205, 205, 205);
 }
 
 .header {
@@ -12,7 +11,8 @@
   left: 0;
   width: 100%;
   z-index: 9999;
-  transition: all 0.4 ease-in;
+  transition: all 0.4s ease-in;
+  background: #fff;
 
   &__nav {
     margin: 0;
@@ -157,6 +157,9 @@
     }
     &__nav_ul_li_link {
       margin-bottom: 30px;
+    }
+    &__nav_link_img {
+      width: 100px;
     }
   }
 }

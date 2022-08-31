@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MainOne.scss";
 import bg from "../../assets/images/bg.svg";
 import video from "../../assets/pdpicons/play-video.svg";
 import hq from "../../assets/images/hqdefault.jpg";
-import { useState } from "react";
 
 const MainOne = () => {
-  // const [openModal, setOpenModal] = useState(true);
+  // const  [ openModal , setOpenModal ] = useState(false);
 
   return (
     <div className="mainone">
@@ -21,17 +20,17 @@ const MainOne = () => {
             <img className="mainone__ul_li_homeimg" src={bg} alt="" />
           </li>
           <li className="mainone__ul_li">
-            <div
+            <button
               className="mainone__ul_li_box"
-              // onClick={(e) => setOpenModal(!openModal)}
+              // onClick={() => setOpenModal(!openModal)}
             >
               <img
                 className="mainone__ul_li_videoimg mainone__ul_li_img"
                 src={video}
                 alt=""
               />
-            </div>
-            {/* <dialog className="mainone__ul_li_dialog" open={''}>
+            </button>
+            {/* <dialog className="mainone__ul_li_dialog" open={openModal}>
               <div className="mainone__ul_li_dialog_box">
                 <iframe
                   className="mainone__ul_li_dialog_box_iframe"
@@ -43,8 +42,14 @@ const MainOne = () => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
+
               </div>
-              <button className="mainone__ul_li_dialog_btn">x</button>
+              <button
+                className="mainone__ul_li_dialog_btn"
+                onClick={() => setOpenModal(false)}
+              >
+                x
+              </button>
             </dialog> */}
           </li>
         </ul>

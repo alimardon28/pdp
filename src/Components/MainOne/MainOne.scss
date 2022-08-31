@@ -51,27 +51,27 @@
     cursor: pointer;
   }
   &__ul_li_dialog {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 50vh;
-    top: 0;
+    min-height: 100vh;
     background: transparent;
     border: none;
     outline: none;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    z-index: 10;
   }
   &__ul_li_dialog_box {
-    width: 560px;
+    width: 700px;
     height: 315px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  // &__ul_li_dialog_box_iframe{
-  //     width: 700px;
-  // }
+  &__ul_li_dialog_box_iframe {
+    width: 100%;
+  }
   &__ul_li_dialog_btn {
     margin: 0;
     padding: 5px;
