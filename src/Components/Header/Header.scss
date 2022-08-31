@@ -1,6 +1,18 @@
+.header_bg {
+  background: #fff;
+  transition: all 0.4 ease-in;
+  box-shadow: 2px 2px 20px rgb(205, 205, 205);
+}
+
 .header {
   margin: 0;
-  padding: 46px 0px;
+  padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: all 0.4 ease-in;
 
   &__nav {
     margin: 0;
@@ -24,12 +36,16 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    position: relative;
   }
   &__nav_ul_li {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  &__nav_ul_lis {
+    position: absolute;
   }
 
   &__nav_ul_li_a {
@@ -68,6 +84,17 @@
     height: 24px;
     display: none;
   }
+  &__nav_ul_li_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    opacity: 0;
+    color: #fff;
+  }
   @media screen and (max-width: 769px) {
     &__nav_link {
       margin-right: 10px;
@@ -77,22 +104,36 @@
     }
   }
   @media screen and (max-width: 626px) {
+    &__nav_ul_lis {
+      position: absolute;
+      top: 28px;
+      right: 22px;
+    }
+    &__nav_ul_li_btn {
+      opacity: 1;
+    }
     &__nav_ul {
       display: none;
     }
-    // &__nav_ul {
-    //   display: block;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   flex-direction: column;
-    //   min-height: 100vh;
-    //   position: fixed;
-    //   top: 0;
-    //   left: 0;
-    //   width: 100%;
-    //   background: rgba(0, 0, 0, 0.9);
-    // }
+    &__nav_ul {
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: fixed;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      transition: all 0.4s ease-in;
+      transform: translateY(-100vh);
+      z-index: 999;
+    }
+    &__nav_responsive_nav {
+      transform: none;
+    }
     &__nav_button {
       display: block;
     }

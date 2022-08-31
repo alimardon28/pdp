@@ -1,6 +1,21 @@
+.header_bg {
+  background: #fff;
+  -webkit-transition: all 0.4 ease-in;
+  transition: all 0.4 ease-in;
+  -webkit-box-shadow: 2px 2px 20px #cdcdcd;
+          box-shadow: 2px 2px 20px #cdcdcd;
+}
+
 .header {
   margin: 0;
-  padding: 46px 0px;
+  padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all 0.4 ease-in;
+  transition: all 0.4 ease-in;
 }
 
 .header__nav {
@@ -41,6 +56,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  position: relative;
 }
 
 .header__nav_ul_li {
@@ -54,6 +70,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.header__nav_ul_lis {
+  position: absolute;
 }
 
 .header__nav_ul_li_a {
@@ -104,6 +124,24 @@
   display: none;
 }
 
+.header__nav_ul_li_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  opacity: 0;
+  color: #fff;
+}
+
 @media screen and (max-width: 769px) {
   .header__nav_link {
     margin-right: 10px;
@@ -114,8 +152,47 @@
 }
 
 @media screen and (max-width: 626px) {
+  .header__nav_ul_lis {
+    position: absolute;
+    top: 28px;
+    right: 22px;
+  }
+  .header__nav_ul_li_btn {
+    opacity: 1;
+  }
   .header__nav_ul {
     display: none;
+  }
+  .header__nav_ul {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+    z-index: 999;
+  }
+  .header__nav_responsive_nav {
+    -webkit-transform: none;
+            transform: none;
   }
   .header__nav_button {
     display: block;

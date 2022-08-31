@@ -1,23 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+body {
     padding: 0;
+    margin-top: 81px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-.container{
+
+.container {
     max-width: 1190px;
     padding: 0 25px;
     margin: 0 auto;
 }
+
 @media screen and (max-width:426px) {
-    .container{
+    .container {
         padding: 0;
     }
 }

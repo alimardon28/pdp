@@ -7,31 +7,19 @@ import personal_api from "../../API/personal";
 import { useRef } from "react";
 
 const MainSex = () => {
-  const [personal] = useState(personal_api);
-  //   const slide = useRef();
-  //   const [point, setPoint] = useState(0);
+  const [personal, setPersonal] = useState(personal_api);
+  const [point, setPoint] = useState(0);
 
-  //   const slideShow = () => {
-  //     if (point < 0) {
-  //       setPoint(personal_api.length );
-  //     }
-  //     if (point > personal_api.length  ) {
-  //       setPoint(0);
-  //     }
-
-  //     return (slide.current.style.transform = `translate(-${point * 570}px)`),
-  //     console.log(point*570);
-  //   };
-
-  //   const slideNext = () => {
-  //     setPoint(() => point + 1);
-  //     slideShow();
-  //   };
-
-  //   const slidePrev = () => {
-  //     setPoint(() => point - 1);
-  //     slideShow();
-  //   };
+  const prevPerson = () => {
+    if(point ===  personal.id){
+console.log('work');
+    }
+  };
+  const nextPerson = () => {
+    if(point ===  personal.id){
+      console.log('fork');
+          }
+  };
 
   return (
     <div className="mainsex">
@@ -47,14 +35,20 @@ const MainSex = () => {
                 yagona tizim orqali kuzatishlari mumkin
               </p>
               <div className="mainsex__left_box_buttons">
-                <button className="mainsex__left_box_buttons_btn">
+                <button
+                  className="mainsex__left_box_buttons_btn"
+                  onClick={() => prevPerson()}
+                >
                   <img
                     className="mainsex__left_box_buttons_btn_img mainsex__left_box_buttons_btn_imgs"
                     src={right}
                     alt=""
                   />
                 </button>
-                <button className="mainsex__left_box_buttons_btn">
+                <button
+                  className="mainsex__left_box_buttons_btn"
+                  onClick={() => nextPerson()}
+                >
                   <img
                     className="mainsex__left_box_buttons_btn_img"
                     src={right}
@@ -66,9 +60,9 @@ const MainSex = () => {
           </div>
           <div className="mainsex__right">
             <ul className="mainsex__right_ul">
-              {personal?.map((data) => {
+              {personal?.map((data, personIndex) => {
                 return (
-                  <li className="mainsex__right_ul_li" key={data.id}>
+                  <li className="mainsex__right_ul_li" key={data.id} id={personIndex}>
                     <h2 className="mainsex__right_ul_li_title">
                       {data.personal_title}
                     </h2>
