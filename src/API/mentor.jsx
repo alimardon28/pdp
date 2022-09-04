@@ -7,13 +7,13 @@ import dispatch from "../assets/pdpApiimagesfile/download-6.png";
 // avatar
 
 import avatar1 from "../assets/pdpApiimagesfile/download-11.png";
-import avatar2 from "../assets/pdpApiimagesfile/download-5.png";
-import avatar3 from "../assets/pdpApiimagesfile/download.png";
-import avatar4 from "../assets/pdpApiimagesfile/download-7.png";
-import avatar5 from "../assets/pdpApiimagesfile/download-6.png";
-import avatar6 from "../assets/pdpApiimagesfile/download-4.png";
-import avatar7 from "../assets/pdpApiimagesfile/download-2.png";
-import avatar8 from "../assets/pdpApiimagesfile/download-3.png";
+import avatar2 from "../assets/pdpApiimagesfile/download-5.jpg";
+import avatar3 from "../assets/pdpApiimagesfile/download.jpg";
+import avatar4 from "../assets/pdpApiimagesfile/download-7.jpg";
+import avatar5 from "../assets/pdpApiimagesfile/download-6.jpg";
+import avatar6 from "../assets/pdpApiimagesfile/download-4.jpg";
+import avatar7 from "../assets/pdpApiimagesfile/download-2.jpg";
+import avatar8 from "../assets/pdpApiimagesfile/download-3.jpg";
 
 const mentor = [
   {
@@ -73,3 +73,5 @@ const mentor = [
     mentor_edu: pdp,
   },
 ];
+
+export default mentor;

@@ -6,6 +6,7 @@ import MainNine from '../../Components/MainNine/MainNine';
 import MainOne from '../../Components/MainOne/MainOne';
 import MainSeven from '../../Components/MainSeven/MainSeven';
 import MainSex from '../../Components/MainSex/MainSex';
+import MainTen from '../../Components/MainTen/MainTen';
 import MainThree from '../../Components/MainThree/MainThree';
 import MainTwo from '../../Components/MainTwo/MainTwo';
 import "../Home/Home.scss";
@@ -22,6 +23,7 @@ const Home = () => {
             <MainSeven/>
             <MainEight/>
             <MainNine/>
+            <MainTen/>
 
         </div>
     );
