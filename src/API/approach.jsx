@@ -43,3 +43,5 @@ const approach = [
     approach_img: edu10,
   },
 ];
+
+export default approach;
