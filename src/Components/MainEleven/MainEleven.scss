@@ -227,6 +227,7 @@
     }
     &__box_right_ul_li {
       border: none;
+      width: 160px;
     }
     &__box_right_ul_li_img1 {
       width: 125px;
@@ -265,8 +266,11 @@
     &__box_right_ul {
       display: flex;
       align-items: center;
-      justify-content: center;
-      flex-direction: column;
+      justify-content:space-between;
+      flex-wrap: wrap;
+    }
+    &__box_right_ul_li {
+      width: 140px;
     }
   }
 }
