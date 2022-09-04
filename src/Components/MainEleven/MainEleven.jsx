@@ -17,17 +17,23 @@ const MainEleven = () => {
       <div className="container">
         <div className="maineleven__box">
           <div className="maineleven__box_left">
-            <img  className="maineleven__box_left_img" src={yk} alt="" />
-            <h3  className="maineleven__box_left_title">Bizning hamkorlarimiz sizni kutmoqda</h3>
-            <p  className="maineleven__box_left_desc">
+            <img className="maineleven__box_left_img" src={yk} alt="" />
+            <h3 className="maineleven__box_left_title">
+              Bizning hamkorlarimiz sizni kutmoqda
+            </h3>
+            <p className="maineleven__box_left_desc">
               Bizning akademiyamiz bir nechta o’nlab kompaniyalar bilan
               hamkorlik aloqalari(memorandum)ni yo’lga qo’ygan. Kurslarimizni
               tamomlagan talabalarimiz hamkor kompaniyalarda tavsiyalarimizga
               ko’ra ishga joylashish imkoniyatiga ega bo’ladilar.
             </p>
-            <button  className="maineleven__box_left_btn">
+            <button className="maineleven__box_left_btn">
               Hamkorlik qilish
-              <img  className="maineleven__box_left_btn_img" src={right} alt="" />
+              <img
+                className="maineleven__box_left_btn_img"
+                src={right}
+                alt=""
+              />
             </button>
           </div>
           <div className="maineleven__box_right">

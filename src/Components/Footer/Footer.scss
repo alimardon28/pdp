@@ -1,0 +1,125 @@
+.footer {
+  margin: 0;
+  padding-top: 170px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  &__ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding-bottom: 50px;
+  }
+  &__ul_li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 8px;
+  }
+  &__ul_li_span {
+    color: #000;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  &__ul_li_p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 12px;
+  }
+  &__ul_li_desc {
+    font-size: 22px;
+    line-height: 28px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  &__ul_li_link {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 35px;
+    color: #898989;
+    transition: all 0.3s ease-in;
+  }
+  &__ul_li_link:hover {
+    transition: all 0.3s ease-in;
+    color: rgb(55, 205, 21);
+  }
+  &__ul_li_links {
+    line-height: 25px;
+    margin-top: 36px;
+  }
+  &__ul_li_descs {
+    text-align: right;
+    font-size: 16px;
+    color: #898989;
+    font-family: sans-serif;
+  }
+  &__ul_li_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+  }
+  &__ul_li_box_img1 {
+    position: absolute;
+    right: 40px;
+    z-index: -1;
+  }
+
+  &__box {
+    padding-top: 20px;
+  }
+  &__box_desc {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #2b2b2b;
+  }
+  @media screen and (max-width: 769px) {
+    &__ul {
+      padding: 0px 12px 50px 12px;
+    }
+    &__ul_li {
+      margin-top: 20px;
+    }
+    &__ul_li_span {
+      font-size: 15px;
+    }
+    &__ul_li_p {
+      font-size: 14px;
+    }
+    &__ul_li_desc {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    &__ul_li_link {
+      font-size: 14px;
+      line-height: 28px;
+    }
+    &__ul_li_links {
+      line-height: 23px;
+      margin-top: 34px;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    &__box {
+      padding-left: 20px;
+    }
+    &__ul_li_box {
+      left: 22px;
+    }
+  }
+}
