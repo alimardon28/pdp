@@ -1,1 +1,129 @@
-/* No CSS *//*# sourceMappingURL=MainEight.css.map */
+.maineight {
+  margin: 0;
+  padding-top: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.maineight__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 50px 0px;
+  background-color: #faf8f8;
+}
+
+.maineight__box_left {
+  margin: 0;
+  padding: 0;
+}
+
+.maineight__box_left_img {
+  width: 566px;
+  height: 416px;
+}
+
+.maineight__box_right {
+  margin: 0;
+  padding: 0px 70px 0px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.maineight__box_right_img {
+  width: 56px;
+  height: 39px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.maineight__box_right_title {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.maineight__box_right_desc {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 19px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: #939292;
+}
+
+@media screen and (max-width: 1074px) {
+  .maineight__box_right {
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .maineight__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .maineight__box_left_img {
+    width: 686px;
+    height: 536px;
+  }
+  .maineight__box_right {
+    margin-top: 70px;
+  }
+  .maineight__box_right {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .maineight__box_left_img {
+    width: 100%;
+    height: 100%;
+  }
+  .maineight__box_right {
+    margin-top: 0;
+    padding: 30px;
+  }
+  .maineight__box_right_title {
+    padding-top: 25px;
+    font-size: 28px;
+  }
+  .maineight__box_right_desc {
+    padding-top: 25px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+/*# sourceMappingURL=MainEight.css.map */
