@@ -229,6 +229,16 @@
       border: none;
       width: 160px;
     }
+    &__box_left_title {
+      padding-top: 34px;
+      font-size: 26px;
+      line-height: 36px;
+    }
+    &__box_left_desc {
+      padding-top: 20px;
+      font-size: 18px;
+      line-height: 25px;
+    }
     &__box_right_ul_li_img1 {
       width: 125px;
       height: 38px;
@@ -270,7 +280,48 @@
       flex-wrap: wrap;
     }
     &__box_right_ul_li {
-      width: 140px;
+      width: 130px;
+    }
+    &__box_left_title {
+      padding-top: 30px;
+      font-size: 22px;
+      line-height: 32px;
+    }
+    &__box_left_desc {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__box_right_ul_li_img1 {
+      width: 125px;
+      height: 38px;
+    }
+    &__box_right_ul_li_img2 {
+      width: 125px;
+      height: 33px;
+    }
+    &__box_right_ul_li_img3 {
+      width: 125px;
+      height: 26px;
+    }
+    &__box_right_ul_li_img4 {
+      width: 125px;
+      height: 28px;
+    }
+    &__box_right_ul_li_img5 {
+      width: 118px;
+      height: 70px;
+    }
+    &__box_right_ul_li_img6 {
+      width: 70px;
+      height: 70px;
+    }
+    &__box_right_ul_li_img7 {
+      width: 60px;
+      height: 70px;
+    }
+    &__box_right_ul_li_img8 {
+      width: 125px;
+      height: 33px;
     }
   }
 }

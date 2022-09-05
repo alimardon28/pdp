@@ -295,6 +295,16 @@
     border: none;
     width: 160px;
   }
+  .maineleven__box_left_title {
+    padding-top: 34px;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .maineleven__box_left_desc {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
   .maineleven__box_right_ul_li_img1 {
     width: 125px;
     height: 38px;
@@ -344,7 +354,48 @@
         flex-wrap: wrap;
   }
   .maineleven__box_right_ul_li {
-    width: 140px;
+    width: 130px;
+  }
+  .maineleven__box_left_title {
+    padding-top: 30px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .maineleven__box_left_desc {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .maineleven__box_right_ul_li_img1 {
+    width: 125px;
+    height: 38px;
+  }
+  .maineleven__box_right_ul_li_img2 {
+    width: 125px;
+    height: 33px;
+  }
+  .maineleven__box_right_ul_li_img3 {
+    width: 125px;
+    height: 26px;
+  }
+  .maineleven__box_right_ul_li_img4 {
+    width: 125px;
+    height: 28px;
+  }
+  .maineleven__box_right_ul_li_img5 {
+    width: 118px;
+    height: 70px;
+  }
+  .maineleven__box_right_ul_li_img6 {
+    width: 70px;
+    height: 70px;
+  }
+  .maineleven__box_right_ul_li_img7 {
+    width: 60px;
+    height: 70px;
+  }
+  .maineleven__box_right_ul_li_img8 {
+    width: 125px;
+    height: 33px;
   }
 }
 /*# sourceMappingURL=MainEleven.css.map */

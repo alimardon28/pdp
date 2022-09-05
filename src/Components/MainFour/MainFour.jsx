@@ -52,11 +52,11 @@ const MainFour = () => {
                         src={data.avatar}
                         alt=""
                       />
-                      <img
+                      {/* <img
                         className="mainfour__top_ul_li_bottom_images_img"
                         src={data.avatar1}
                         alt=""
-                      />
+                      /> */}
                     </div>
                   </div>
                 </li>
