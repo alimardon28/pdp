@@ -287,6 +287,12 @@
 }
 
 @media screen and (max-width: 426px) {
+  .maintwo__left {
+    padding: 20px 20px 0px 0px;
+  }
+  .maintwo__right {
+    padding: 20px 20px 0px 0px;
+  }
   .maintwo__left_hover {
     padding-top: 100px;
     padding-left: 45px;
@@ -318,13 +324,19 @@
 }
 
 @media screen and (max-width: 376px) {
+  .maintwo__left {
+    padding: 16px 16px 0px 0px;
+  }
+  .maintwo__right {
+    padding: 16px 16px 0px 0px;
+  }
   .maintwo__left_hover {
-    padding-top: 100px;
-    padding-left: 0px;
+    padding-top: 90px;
+    padding-left: 25px;
   }
   .maintwo__right_hover {
-    padding-top: 100px;
-    padding-left: 0px;
+    padding-top: 90px;
+    padding-left: 25px;
   }
   .maintwo__left_bg_desc {
     font-size: 14px;
@@ -344,14 +356,14 @@
 
 @media screen and (max-width: 350px) {
   .maintwo__left_bg_desc {
-    font-size: 13px;
+    font-size: 14px;
   }
   .maintwo__left_bg_img {
     width: 130px;
     height: 170px;
   }
   .maintwo__right_bg_desc {
-    font-size: 13px;
+    font-size: 14px;
   }
   .maintwo__right_bg_img {
     width: 130px;
