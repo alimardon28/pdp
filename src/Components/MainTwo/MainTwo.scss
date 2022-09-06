@@ -240,7 +240,21 @@
       height: 200px;
     }
   }
-  @media screen and (max-width: 507px) {
+  @media screen and (max-width: 426px) {
+    &__left_hover {
+      padding-top: 100px;
+      padding-left: 45px;
+    }
+    &__right_hover {
+      padding-top: 100px;
+      padding-left: 45px;
+    }
+    &__left_bg {
+      padding-left: 25px;
+    }
+    &__right_bg {
+      padding-left: 25px;
+    }
     &__left_bg_desc {
       font-size: 16px;
     }
@@ -257,6 +271,14 @@
     }
   }
   @media screen and (max-width: 376px) {
+    &__left_hover {
+      padding-top: 100px;
+      padding-left: 35px;
+    }
+    &__right_hover {
+      padding-top: 100px;
+      padding-left: 35px;
+    }
     &__left_bg_desc {
       font-size: 15px;
     }

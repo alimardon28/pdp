@@ -286,7 +286,21 @@
   }
 }
 
-@media screen and (max-width: 507px) {
+@media screen and (max-width: 426px) {
+  .maintwo__left_hover {
+    padding-top: 100px;
+    padding-left: 45px;
+  }
+  .maintwo__right_hover {
+    padding-top: 100px;
+    padding-left: 45px;
+  }
+  .maintwo__left_bg {
+    padding-left: 25px;
+  }
+  .maintwo__right_bg {
+    padding-left: 25px;
+  }
   .maintwo__left_bg_desc {
     font-size: 16px;
   }
@@ -304,6 +318,14 @@
 }
 
 @media screen and (max-width: 376px) {
+  .maintwo__left_hover {
+    padding-top: 100px;
+    padding-left: 35px;
+  }
+  .maintwo__right_hover {
+    padding-top: 100px;
+    padding-left: 35px;
+  }
   .maintwo__left_bg_desc {
     font-size: 15px;
   }
