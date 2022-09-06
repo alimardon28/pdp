@@ -325,10 +325,10 @@
 
 @media screen and (max-width: 376px) {
   .maintwo__left {
-    padding: 16px 16px 0px 0px;
+    padding: 0;
   }
   .maintwo__right {
-    padding: 16px 16px 0px 0px;
+    padding: 0;
   }
   .maintwo__left_hover {
     padding-top: 90px;
