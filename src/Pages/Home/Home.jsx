@@ -17,15 +17,15 @@ const Home = () => {
         <div className='home'>
             <MainOne/>
             {/* <MainTwo/> */}
-            {/* <MainThree/> */}
-            {/* <MainFour/> */}
-            {/* <MainFive/> */}
-            {/* <MainSex/> */}
-            {/* <MainSeven/> */}
-            {/* <MainEight/> */}
-            {/* <MainNine/> */}
-            {/* <MainTen/> */}
-            {/* <MainEleven/> */}
+            <MainThree/>
+            <MainFour/>
+            <MainFive/>
+            <MainSex/>
+            <MainSeven/>
+            <MainEight/>
+            <MainNine/>
+            <MainTen/>
+            <MainEleven/>
 
         </div>
     );
