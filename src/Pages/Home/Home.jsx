@@ -22,10 +22,10 @@ const Home = () => {
             <MainFive/>
             <MainSex/>
             <MainSeven/>
-            <MainEight/>
+            {/* <MainEight/>
             <MainNine/>
             <MainTen/>
-            <MainEleven/>
+            <MainEleven/> */}
 
         </div>
     );
