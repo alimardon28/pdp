@@ -21,8 +21,8 @@ const Home = () => {
             <MainFour/>
             <MainFive/>
             <MainSex/>
-            <MainSeven/>
-            <MainEight/>
+            {/* <MainSeven/> */}
+            {/* <MainEight/> */}
             {/* <MainNine/> */}
             {/* <MainTen/> */}
             {/* <MainEleven/> */}
