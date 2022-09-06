@@ -15,9 +15,9 @@ import "../Home/Home.scss";
 const Home = () => {
     return (
         <div className='home'>
-            <MainOne/>
+            {/* <MainOne/> */}
             <MainTwo/>
-            <MainThree/>
+            {/* <MainThree/>
             <MainFour/>
             <MainFive/>
             <MainSex/>
@@ -25,7 +25,7 @@ const Home = () => {
             <MainEight/>
             <MainNine/>
             <MainTen/>
-            <MainEleven/>
+            <MainEleven/> */}
 
         </div>
     );
