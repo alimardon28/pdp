@@ -115,18 +115,16 @@
 
 @media screen and (max-width: 600px) {
   .mainten__box_top_title {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 37px;
+    line-height: 43px;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .mainten__box {
-    padding: 20px 20px 2px 20px;
-  }
   .mainten__box_top_title {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 20px 20px 2px 20px;
   }
   .mainten__box_bottom_ul {
     display: -webkit-box;
@@ -152,10 +150,10 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
   .mainten__box_top_title {
-    font-size: 37px;
-    line-height: 43px;
+    font-size: 28px;
+    line-height: 35px;
   }
 }
 /*# sourceMappingURL=MainTen.css.map */

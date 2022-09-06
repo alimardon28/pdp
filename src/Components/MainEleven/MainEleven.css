@@ -398,4 +398,39 @@
     height: 33px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .maineleven__box_right_ul_li_img1 {
+    width: 95px;
+    height: 30px;
+  }
+  .maineleven__box_right_ul_li_img2 {
+    width: 95px;
+    height: 30px;
+  }
+  .maineleven__box_right_ul_li_img3 {
+    width: 95px;
+    height: 22px;
+  }
+  .maineleven__box_right_ul_li_img4 {
+    width: 95px;
+    height: 23px;
+  }
+  .maineleven__box_right_ul_li_img5 {
+    width: 108px;
+    height: 65px;
+  }
+  .maineleven__box_right_ul_li_img6 {
+    width: 60px;
+    height: 60px;
+  }
+  .maineleven__box_right_ul_li_img7 {
+    width: 60px;
+    height: 70px;
+  }
+  .maineleven__box_right_ul_li_img8 {
+    width: 95px;
+    height: 28px;
+  }
+}
 /*# sourceMappingURL=MainEleven.css.map */
