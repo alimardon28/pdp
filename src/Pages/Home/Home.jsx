@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 import MainEight from '../../Components/MainEight/MainEight';
 import MainEleven from '../../Components/MainEleven/MainEleven';
 import MainFive from '../../Components/MainFive/MainFive';
@@ -15,6 +17,10 @@ import "../Home/Home.scss";
 const Home = () => {
     return (
         <div className='home'>
+
+<Header/>
+
+
             <MainOne/>
             <MainTwo/>
             <MainThree/>
@@ -27,6 +33,8 @@ const Home = () => {
             <MainTen/>
             <MainEleven/>
 
+
+            <Footer/>
         </div>
     );
 }
