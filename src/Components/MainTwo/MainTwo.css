@@ -319,4 +319,21 @@
     height: 190px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .maintwo__left_bg_desc {
+    font-size: 13px;
+  }
+  .maintwo__left_bg_img {
+    width: 130px;
+    height: 170px;
+  }
+  .maintwo__right_bg_desc {
+    font-size: 13px;
+  }
+  .maintwo__right_bg_img {
+    width: 130px;
+    height: 170px;
+  }
+}
 /*# sourceMappingURL=MainTwo.css.map */

@@ -272,4 +272,20 @@
       height: 190px;
     }
   }
+  @media screen and (max-width: 350px) {
+    &__left_bg_desc {
+      font-size: 13px;
+    }
+    &__left_bg_img {
+      width: 130px;
+      height: 170px;
+    }
+    &__right_bg_desc {
+      font-size: 13px;
+    }
+    &__right_bg_img {
+      width: 130px;
+      height: 170px;
+    }
+  }
 }
