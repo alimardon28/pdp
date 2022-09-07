@@ -1,7 +1,7 @@
 .activekurse {
   margin: 0;
   box-sizing: border-box;
-  min-height: 100vh;
+  // min-height: 100vh;
   &__box {
     display: flex;
     align-items: flex-start;
@@ -41,6 +41,7 @@
     border-bottom: 3px solid rgb(204, 204, 204);
     font-family: sans-serif;
     color: #ccc;
+    text-decoration: none;
   }
   &__box_left_ul_li_active {
     border-bottom: 3px solid #000;
@@ -147,8 +148,15 @@
     &__box_left_ul_li {
       width: 100%;
     }
+    &__box_left_ul_li_btn1 {
+      width: 407px;
+    }
+    &__box_left_ul_li_btn2 {
+      width: 407px;
+    }
     &__box_left_ul_li_btn3 {
       margin-top: 30px;
+      width: 820px;
     }
     &__box_left_ul_li_btn4 {
       margin-top: 60px;
@@ -168,6 +176,9 @@
     }
     &__box_right_ul_li + &__box_right_ul_li {
       margin-left: 0px;
+    }
+    &__box_righttop {
+      top: 40px;
     }
   }
 

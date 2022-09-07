@@ -2,7 +2,6 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  min-height: 100vh;
 }
 
 .activekurse__box {
@@ -68,6 +67,7 @@
   border-bottom: 3px solid #cccccc;
   font-family: sans-serif;
   color: #ccc;
+  text-decoration: none;
 }
 
 .activekurse__box_left_ul_li_active {
@@ -231,8 +231,15 @@
   .activekurse__box_left_ul_li {
     width: 100%;
   }
+  .activekurse__box_left_ul_li_btn1 {
+    width: 407px;
+  }
+  .activekurse__box_left_ul_li_btn2 {
+    width: 407px;
+  }
   .activekurse__box_left_ul_li_btn3 {
     margin-top: 30px;
+    width: 820px;
   }
   .activekurse__box_left_ul_li_btn4 {
     margin-top: 60px;
@@ -261,6 +268,9 @@
   }
   .activekurse__box_right_ul_li + .activekurse__box_right_ul_li {
     margin-left: 0px;
+  }
+  .activekurse__box_righttop {
+    top: 40px;
   }
 }
 

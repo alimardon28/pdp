@@ -21,9 +21,12 @@ const ActiveKurse = () => {
                 </button>
               </li>
               <li className="activekurse__box_left_ul_li activekurse__box_left_ul_li2">
-                <button className="activekurse__box_left_ul_li_btn activekurse__box_left_ul_li_btn3">
+                <NavLink
+                  to="/offlinekurs"
+                  className="activekurse__box_left_ul_li_btn activekurse__box_left_ul_li_btn3"
+                >
                   Offline kurslar
-                </button>
+                </NavLink>
               </li>
               <li className="activekurse__box_left_ul_li activekurse__box_left_ul_li3">
                 <button className="activekurse__box_left_ul_li_btn activekurse__box_left_ul_li_btn4">
