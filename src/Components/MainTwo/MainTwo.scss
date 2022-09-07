@@ -138,8 +138,11 @@
 
   //   maintwo right style end
 
-  &__right:hover &__btn_img {
-    color: rgb(38, 255, 0);
+  &__left:hover &__btn_svg {
+    fill: rgb(49, 196, 0);
+  }
+  &__right:hover &__btn_svg {
+    fill: rgb(49, 196, 0);
   }
   &__btn {
     position: absolute;
@@ -158,9 +161,9 @@
     justify-content: center;
     background: #fff;
   }
-  &__btn_img {
+  &__btn_svg {
+    fill: #424242;
     width: 20px;
-    height: 15px;
   }
 
   @media screen and (max-width: 1141px) {
@@ -278,7 +281,7 @@
   }
   @media screen and (max-width: 376px) {
     &__left {
-     padding: 0;
+      padding: 0;
     }
     &__right {
       padding: 0;

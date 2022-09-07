@@ -2,12 +2,13 @@ import React from "react";
 import "../offlinekurses/offlinekurses.scss";
 import offline from "../../assets/images/offline.svg";
 import video from "../../assets/pdpicons/play-video.svg";
+import MainFour from "../MainFour/MainFour";
 
 const Offlinekurses = () => {
   return (
     <div className="offlinekurses">
-      <div className="container">
-        <div className="offlinekurses__box">
+      <div className="offlinekurses__box">
+        <div className="container">
           <ul className="offlinekurses__box_ul">
             <li className="offlinekurses__box_ul_li">
               <h1 className="offlinekurses__box_ul_li_title">
@@ -31,7 +32,10 @@ const Offlinekurses = () => {
               </button>
             </li>
           </ul>
-          <div className="offlinekurses__box_bottom">
+        </div>
+
+        <MainFour />
+        {/* <div className="offlinekurses__box_bottom">
             <h2 className="offlinekurses__box_bottom_title">
               O'zingizga mos yo'nalish tanlang
             </h2>
@@ -40,8 +44,7 @@ const Offlinekurses = () => {
               kurslardan birini tanlang. Kurs davomida portfolio to'plash,
               rezyume hosil qilish va ish topishingizga esa biz yordam beramiz.
             </p>
-          </div>
-        </div>
+          </div> */}
       </div>
     </div>
   );

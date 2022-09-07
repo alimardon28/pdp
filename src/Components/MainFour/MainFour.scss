@@ -59,6 +59,12 @@
     background: rgb(12, 203, 73);
     transition: all 0.3s ease-in;
   }
+  &__top_ul_li:hover &__top_ul_li_top_btn_svg {
+    fill: #fff;
+  }
+  &__top_ul_li_top_btn_svg {
+    fill: rgb(109, 109, 109);
+  }
   &__top_ul_li_top {
     display: flex;
     align-items: center;
@@ -83,10 +89,6 @@
     height: 60px;
     background: #f8f8f8;
     transition: all 0.3s ease-in;
-  }
-  &__top_ul_li_top_btn_img {
-    width: 24px;
-    height: 24px;
   }
   &__top_ul_li_bottom {
     margin: 0;

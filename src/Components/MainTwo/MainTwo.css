@@ -168,8 +168,12 @@
   height: 267px;
 }
 
-.maintwo__right:hover .maintwo__btn_img {
-  color: #26ff00;
+.maintwo__left:hover .maintwo__btn_svg {
+  fill: #31c400;
+}
+
+.maintwo__right:hover .maintwo__btn_svg {
+  fill: #31c400;
 }
 
 .maintwo__btn {
@@ -196,9 +200,9 @@
   background: #fff;
 }
 
-.maintwo__btn_img {
+.maintwo__btn_svg {
+  fill: #424242;
   width: 20px;
-  height: 15px;
 }
 
 @media screen and (max-width: 1141px) {

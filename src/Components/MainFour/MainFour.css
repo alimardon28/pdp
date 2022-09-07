@@ -95,6 +95,14 @@
   transition: all 0.3s ease-in;
 }
 
+.mainfour__top_ul_li:hover .mainfour__top_ul_li_top_btn_svg {
+  fill: #fff;
+}
+
+.mainfour__top_ul_li_top_btn_svg {
+  fill: #6d6d6d;
+}
+
 .mainfour__top_ul_li_top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,11 +142,6 @@
   background: #f8f8f8;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-}
-
-.mainfour__top_ul_li_top_btn_img {
-  width: 24px;
-  height: 24px;
 }
 
 .mainfour__top_ul_li_bottom {

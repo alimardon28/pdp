@@ -30,7 +30,16 @@ const MainTwo = () => {
             <img className="maintwo__left_bg_img" src={img} alt="" />
           </div>
           <button className="maintwo__btn">
-            <img className="maintwo__btn_img" src={topright} alt="" />
+            <svg
+            className="maintwo__btn_svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M16.0039 9.414L7.39691 18.021L5.98291 16.607L14.5889 8H7.00391V6H18.0039V17H16.0039V9.414V9.414Z" />
+            </svg>
           </button>
         </div>
         <div className="maintwo__right">
@@ -56,7 +65,16 @@ const MainTwo = () => {
             <img className="maintwo__right_bg_img" src={down} alt="" />
           </div>
           <button className="maintwo__btn">
-            <img className="maintwo__btn_img" src={topright} alt="" />
+          <svg
+          className="maintwo__btn_svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M16.0039 9.414L7.39691 18.021L5.98291 16.607L14.5889 8H7.00391V6H18.0039V17H16.0039V9.414V9.414Z" />
+            </svg>
           </button>
         </div>
       </div>

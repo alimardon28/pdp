@@ -8,9 +8,7 @@ const Offlinekurs = () => {
     <>
       <div className="offlinekurs">
         <Header />
-        <div className="container">
-          <Offlinekurses/>
-        </div>
+        <Offlinekurses />
         <Footer />
       </div>
     </>
