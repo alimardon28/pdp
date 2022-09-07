@@ -1,0 +1,207 @@
+.offlinekurses {
+  margin: 0;
+  padding-top: 50px;
+}
+
+.offlinekurses__box {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offlinekurses__box_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.offlinekurses__box_ul_li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.offlinekurses__box_ul_li_title {
+  font-size: 72px;
+  line-height: 82px;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #00be10;
+}
+
+.offlinekurses__box_ul_li_title > span {
+  color: #000;
+}
+
+.offlinekurses__box_ul_li_offlineimg {
+  width: 320px;
+  height: 275px;
+}
+
+.offlinekurses__box_ul_li_btn {
+  margin: 0;
+  padding: 0;
+  background-image: url(../../assets/images/hqdefault.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  margin-left: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.offlinekurses__box_ul_li_btn_videoimg {
+  width: 61px;
+  height: 61px;
+}
+
+.offlinekurses__box_bottom {
+  margin-top: 50px;
+  background: #f8f8f8;
+  padding: 72px 64px 30px;
+}
+
+.offlinekurses__box_bottom_title {
+  font-size: 30px;
+  color: #000;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.offlinekurses__box_bottom_desc {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #898989;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1168px) {
+  .offlinekurses__box_ul_li_title {
+    font-size: 62px;
+    line-height: 72px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .offlinekurses__box_ul_li_title {
+    font-size: 52px;
+    line-height: 62px;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .offlinekurses__box_ul_li_title {
+    font-size: 47px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 931px) {
+  .offlinekurses__box_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offlinekurses__box_ul_li {
+    margin-bottom: 30px;
+  }
+  .offlinekurses__box_ul_li_title {
+    font-size: 52px;
+    line-height: 76px;
+    text-align: center;
+  }
+  .offlinekurses__box_ul_li_offlineimg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .offlinekurses__box_ul_li_title {
+    font-size: 45px;
+    line-height: 66px;
+  }
+  .offlinekurses__box_bottom {
+    margin-top: 30px;
+    padding: 52px 44px 20px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .offlinekurses__box_ul_li_title {
+    font-size: 41px;
+    line-height: 56px;
+  }
+  .offlinekurses__box_bottom {
+    margin-top: 30px;
+    padding: 52px 44px 20px;
+  }
+  .offlinekurses__box_bottom_title {
+    font-size: 28px;
+  }
+  .offlinekurses__box_bottom_desc {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .offlinekurses__box_ul_li_title {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .offlinekurses__box_bottom {
+    margin-top: 28px;
+    padding: 48px 40px 18px;
+  }
+  .offlinekurses__box_bottom_title {
+    font-size: 26px;
+  }
+  .offlinekurses__box_bottom_desc {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+/*# sourceMappingURL=offlinekurses.css.map */

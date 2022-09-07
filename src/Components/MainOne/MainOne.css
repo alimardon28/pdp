@@ -62,6 +62,7 @@
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   cursor: pointer;
+  border: none;
 }
 
 .mainone__ul_li_videoimg {
