@@ -18,6 +18,12 @@ const ActiveKurse = () => {
                 </button>
                 <button className="activekurse__box_left_ul_li_btn activekurse__box_left_ul_li_btn2">
                   Onsite
+                  <p className="activekurse__box_left_ul_li_btn2_desc">
+                    <span>Onsite</span>
+                    <p className="activekurse__box_left_ul_li_btn2_descs">
+                      Kurslarimiz vaqtinchalik to'xtatilgan
+                    </p>
+                  </p>
                 </button>
               </li>
               <li className="activekurse__box_left_ul_li activekurse__box_left_ul_li2">
@@ -47,13 +53,13 @@ const ActiveKurse = () => {
                   Kurslar <img src={info} alt="" />
                 </p>
                 <a className="activekurse__box_right_ul_li_link" href="#">
-                  C# Development
+                  C# Development <sup>new</sup>
                 </a>
                 <a className="activekurse__box_right_ul_li_link" href="#">
-                  ReactJS Development
+                  ReactJS Development <sup>new</sup>
                 </a>
                 <a className="activekurse__box_right_ul_li_link" href="#">
-                  Frontend Development
+                  Frontend Development <sup>new</sup>
                 </a>
                 <a className="activekurse__box_right_ul_li_link" href="#">
                   Android App Development
