@@ -17,10 +17,10 @@ import "../Home/Home.scss";
 const Home = () => {
   return (
     <div className="home">
-      {/* <Header /> */}
+      <Header />
 
       {/* <MainOne /> */}
-      <MainTwo />
+      {/* <MainTwo /> */}
       {/* <MainThree /> */}
       {/* <MainFour /> */}
       {/* <MainFive /> */}
