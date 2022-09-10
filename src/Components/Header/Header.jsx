@@ -63,13 +63,13 @@ const Header = () => {
               </a>
             </li>
             <li className="header__nav_ul_li">
-              <a
+              <NavLink
                 className="header__nav_ul_li_a header__nav_ul_li_links"
-                href="#"
+                to="/kirish"
               >
                 <img src={enter} alt="" />
                 kirish
-              </a>
+              </NavLink>
             </li>
             <li className="header__nav_ul_li header__nav_ul_lis">
               <button className="header__nav_ul_li_btn" onClick={showNavbar}>
