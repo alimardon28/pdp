@@ -336,24 +336,50 @@
   }
   .maintwo__left_hover {
     padding-top: 90px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .maintwo__right_hover {
     padding-top: 90px;
-    padding-left: 20px;
+    padding-left: 0px;
+  }
+  .maintwo__left_hover_h2 {
+    margin-left: 18px;
+  }
+  .maintwo__left_hover_desc {
+    padding-left: 18px;
+  }
+  .maintwo__left_hover_img {
+    margin-left: 18px;
+  }
+  .maintwo__right_hover_h2 {
+    margin-left: 18px;
+  }
+  .maintwo__right_hover_desc {
+    padding-left: 18px;
+  }
+  .maintwo__right_hover_img {
+    margin-left: 18px;
+  }
+  .maintwo__left_bg {
+    padding: 0;
+  }
+  .maintwo__right_bg {
+    padding: 0;
   }
   .maintwo__left_bg_desc {
-    font-size: 14px;
+    font-size: 13px;
+    padding-left: 18px;
   }
   .maintwo__left_bg_img {
-    width: 140px;
+    width: 130px;
     height: 180px;
   }
   .maintwo__right_bg_desc {
-    font-size: 14px;
+    font-size: 13px;
+    padding-left: 18px;
   }
   .maintwo__right_bg_img {
-    width: 140px;
+    width: 130px;
     height: 180px;
   }
 }
