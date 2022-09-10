@@ -17,21 +17,21 @@ import "../Home/Home.scss";
 const Home = () => {
   return (
     <div className="home">
-      <Header />
+      {/* <Header /> */}
 
-      <MainOne />
+      {/* <MainOne /> */}
       <MainTwo />
-      <MainThree />
-      <MainFour />
-      <MainFive />
-      <MainSex />
-      <MainSeven />
-      <MainEight />
-      <MainNine />
-      <MainTen />
-      <MainEleven />
+      {/* <MainThree /> */}
+      {/* <MainFour /> */}
+      {/* <MainFive /> */}
+      {/* <MainSex /> */}
+      {/* <MainSeven /> */}
+      {/* <MainEight /> */}
+      {/* <MainNine /> */}
+      {/* <MainTen /> */}
+      {/* <MainEleven /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
