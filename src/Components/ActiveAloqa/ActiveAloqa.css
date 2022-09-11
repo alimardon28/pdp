@@ -2,4 +2,182 @@
   margin: 0;
   padding-top: 15px;
 }
+
+.activealoqa__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.activealoqa__box_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.activealoqa__box_ul_li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.activealoqa__box_ul_li_title {
+  font-size: 75px;
+  line-height: 85px;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  font-family: sans-serif;
+}
+
+.activealoqa__box_ul_li_title > span {
+  color: #00b533;
+}
+
+.activealoqa__box_ul_li_box {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../assets//icons/framebg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 329px;
+  height: 293px;
+}
+
+.activealoqa__box_ul_li__box_images2 {
+  width: 168px;
+  height: 386px;
+  margin-top: 29px;
+}
+
+.activealoqa__box_ul_li_btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  background-image: url(../../assets/images/hqdefault.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.activealoqa__box_ul_li_img {
+  width: 61px;
+  height: 61px;
+}
+
+@media screen and (max-width: 1187px) {
+  .activealoqa__box_ul_li_title {
+    font-size: 65px;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 1067px) {
+  .activealoqa__box_ul_li_title {
+    font-size: 55px;
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .activealoqa__box_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .activealoqa__box_ul_li {
+    margin-bottom: 50px;
+  }
+  .activealoqa__box_ul_li1 {
+    margin-top: 50px;
+  }
+  .activealoqa__box_ul_li_title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .activealoqa__box_ul_li_title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .activealoqa__box_ul_li {
+    margin-bottom: 30px;
+  }
+  .activealoqa__box_ul_li1 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .activealoqa__box_ul_li_title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .activealoqa__box_ul_li_box {
+    width: 290px;
+    height: 260px;
+  }
+  .activealoqa__box_ul_li__box_images2 {
+    width: 148px;
+    height: 366px;
+    margin-top: 29px;
+  }
+}
 /*# sourceMappingURL=ActiveAloqa.css.map */
