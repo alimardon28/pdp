@@ -108,10 +108,12 @@
   font-weight: 200;
   color: #aeaeae;
   font-family: sans-serif;
+  border-bottom: 2px solid transparent;
 }
 
 .header__nav_ul_li_link:hover {
   color: #000;
+  border-bottom: 2px solid #07db00;
 }
 
 .header__nav_button {

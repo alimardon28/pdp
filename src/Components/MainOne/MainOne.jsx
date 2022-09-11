@@ -5,8 +5,6 @@ import video from "../../assets/pdpicons/play-video.svg";
 import hq from "../../assets/images/hqdefault.jpg";
 
 const MainOne = () => {
-  // const  [ openModal , setOpenModal ] = useState(false);
-
   return (
     <div className="mainone">
       <div className="container">
@@ -20,17 +18,14 @@ const MainOne = () => {
             <img className="mainone__ul_li_homeimg" src={bg} alt="" />
           </li>
           <li className="mainone__ul_li">
-            <button
-              className="mainone__ul_li_box"
-              // onClick={() => setOpenModal(!openModal)}
-            >
+            <button className="mainone__ul_li_box">
               <img
                 className="mainone__ul_li_videoimg mainone__ul_li_img"
                 src={video}
                 alt=""
               />
             </button>
-            {/* <dialog className="mainone__ul_li_dialog" open={openModal}>
+            {/* <div className="mainone__ul_li_dialog">
               <div className="mainone__ul_li_dialog_box">
                 <iframe
                   className="mainone__ul_li_dialog_box_iframe"
@@ -50,7 +45,7 @@ const MainOne = () => {
               >
                 x
               </button>
-            </dialog> */}
+            </div> */}
           </li>
         </ul>
       </div>

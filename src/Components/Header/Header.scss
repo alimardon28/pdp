@@ -71,9 +71,11 @@
     font-weight: 200;
     color: rgb(174, 174, 174);
     font-family: sans-serif;
+    border-bottom: 2px solid transparent;
   }
   &__nav_ul_li_link:hover {
     color: #000;
+    border-bottom: 2px solid rgb(7, 219, 0);
   }
   &__nav_button {
     border: none;
