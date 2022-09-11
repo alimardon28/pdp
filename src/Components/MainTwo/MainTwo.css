@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-.maintwo__container {
+.maintwo__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +18,7 @@
   margin-top: 40px;
 }
 
-.maintwo__left {
+.maintwo__box_left {
   position: relative;
   top: 0;
   padding: 30px 30px 0px 0px;
@@ -26,34 +26,34 @@
   cursor: pointer;
 }
 
-.maintwo__left:hover .maintwo__left_bg {
+.maintwo__box_left:hover .maintwo__box_left_bg {
   background: #27b30e;
   opacity: 1;
 }
 
-.maintwo__left_hover {
+.maintwo__box_left_hover {
   padding-top: 100px;
   cursor: pointer;
   padding-left: 65px;
 }
 
-.maintwo__left_hover:hover {
+.maintwo__box_left_hover:hover {
   display: none;
 }
 
-.maintwo__left_hover_img {
+.maintwo__box_left_hover_img {
   width: 27px;
   height: 32px;
 }
 
-.maintwo__left_hover_h2 {
+.maintwo__box_left_hover_h2 {
   margin: 0;
   padding-top: 25px;
   font-family: sans-serif;
   font-size: 30px;
 }
 
-.maintwo__left_hover_desc {
+.maintwo__box_left_hover_desc {
   margin: 0;
   padding-top: 15px;
   font-size: 15px;
@@ -62,7 +62,7 @@
   padding-bottom: 65px;
 }
 
-.maintwo__left_bg {
+.maintwo__box_left_bg {
   position: absolute;
   top: 0;
   opacity: 0;
@@ -80,19 +80,19 @@
   padding-left: 65px;
 }
 
-.maintwo__left_bg_desc {
+.maintwo__box_left_bg_desc {
   color: #fff;
   font-family: sans-serif;
   font-size: 20px;
   padding-bottom: 65px;
 }
 
-.maintwo__left_bg_img {
+.maintwo__box_left_bg_img {
   width: 175px;
   height: 226px;
 }
 
-.maintwo__right {
+.maintwo__box_right {
   position: relative;
   top: 0;
   padding: 30px 30px 0px 0px;
@@ -101,34 +101,34 @@
   cursor: pointer;
 }
 
-.maintwo__right:hover .maintwo__right_bg {
+.maintwo__box_right:hover .maintwo__box_right_bg {
   background: #27b30e;
   opacity: 1;
 }
 
-.maintwo__right_hover {
+.maintwo__box_right_hover {
   padding-top: 100px;
   padding-left: 65px;
   cursor: pointer;
 }
 
-.maintwo__right_hover:hover {
+.maintwo__box_right_hover:hover {
   display: none;
 }
 
-.maintwo__right_hover_img {
+.maintwo__box_right_hover_img {
   width: 36px;
   height: 36px;
 }
 
-.maintwo__right_hover_h2 {
+.maintwo__box_right_hover_h2 {
   margin: 0;
   padding-top: 25px;
   font-family: sans-serif;
   font-size: 30px;
 }
 
-.maintwo__right_hover_desc {
+.maintwo__box_right_hover_desc {
   margin: 0;
   padding-top: 15px;
   font-size: 15px;
@@ -137,7 +137,7 @@
   padding-bottom: 65px;
 }
 
-.maintwo__right_bg {
+.maintwo__box_right_bg {
   position: absolute;
   top: 0;
   opacity: 0;
@@ -155,7 +155,7 @@
   height: 100%;
 }
 
-.maintwo__right_bg_desc {
+.maintwo__box_right_bg_desc {
   color: #fff;
   font-family: sans-serif;
   font-size: 20px;
@@ -163,20 +163,20 @@
   margin: 0;
 }
 
-.maintwo__right_bg_img {
+.maintwo__box_right_bg_img {
   width: 175px;
   height: 267px;
 }
 
-.maintwo__left:hover .maintwo__btn_svg {
+.maintwo__box_left:hover .maintwo__box_btn_svg {
   fill: #31c400;
 }
 
-.maintwo__right:hover .maintwo__btn_svg {
+.maintwo__box_right:hover .maintwo__box_btn_svg {
   fill: #31c400;
 }
 
-.maintwo__btn {
+.maintwo__box_btn {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -200,46 +200,54 @@
   background: #fff;
 }
 
-.maintwo__btn_svg {
+.maintwo__box_btn_svg {
   fill: #424242;
   width: 20px;
 }
 
 @media screen and (max-width: 1141px) {
-  .maintwo__left_bg_desc {
+  .maintwo__box_left_bg_desc {
     font-size: 17px;
   }
-  .maintwo__right_bg_desc {
+  .maintwo__box_right_bg_desc {
     font-size: 17px;
   }
 }
 
-@media screen and (max-width: 769px) {
-  .maintwo__left_bg {
-    padding-left: 30px;
-  }
-  .maintwo__left_bg_desc {
+@media screen and (max-width: 951px) {
+  .maintwo__box_left_bg_desc {
     font-size: 16px;
-    padding-bottom: 30px;
   }
-  .maintwo__left_bg_img {
-    width: 140px;
-    height: 180px;
-  }
-  .maintwo__right_bg {
-    padding-left: 30px;
-  }
-  .maintwo__right_bg_desc {
-    padding-bottom: 30px;
-  }
-  .maintwo__right_bg_img {
-    width: 140px;
-    height: 200px;
+  .maintwo__box_right_bg_desc {
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 719px) {
-  .maintwo__container {
+@media screen and (max-width: 905px) {
+  .maintwo__box_left_bg {
+    padding-left: 40px;
+  }
+  .maintwo__box_left_bg_desc {
+    font-size: 15px;
+  }
+  .maintwo__box_left_bg_img {
+    width: 150px;
+    height: 206px;
+  }
+  .maintwo__box_right_bg {
+    padding-left: 40px;
+  }
+  .maintwo__box_right_bg_desc {
+    font-size: 15px;
+  }
+  .maintwo__box_right_bg_img {
+    width: 150px;
+    height: 206px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .maintwo__box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -247,159 +255,67 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .maintwo__left {
-    width: 100%;
-    margin-bottom: 40px;
+  .maintwo__box_left_hover {
+    padding-top: 80px;
+    padding-left: 45px;
   }
-  .maintwo__left_bg_desc {
-    font-size: 20px;
+  .maintwo__box_left_bg_desc {
+    font-size: 14px;
   }
-  .maintwo__left_bg_img {
-    width: 180px;
-    height: 230px;
+  .maintwo__box_right_hover {
+    padding-top: 80px;
+    padding-left: 45px;
   }
-  .maintwo__right {
-    width: 100%;
-    margin-bottom: 20px;
+  .maintwo__box_right {
+    margin-top: 50px;
   }
-  .maintwo__right_bg_desc {
-    font-size: 20px;
-  }
-  .maintwo__right_bg_img {
-    width: 180px;
-    height: 230px;
-  }
-}
-
-@media screen and (max-width: 507px) {
-  .maintwo__left_bg_desc {
-    font-size: 17px;
-  }
-  .maintwo__left_bg_img {
-    width: 170px;
-    height: 200px;
-  }
-  .maintwo__right_bg_desc {
-    font-size: 17px;
-  }
-  .maintwo__right_bg_img {
-    width: 170px;
-    height: 200px;
+  .maintwo__box_right_bg_desc {
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .maintwo__left {
-    padding: 20px 20px 0px 0px;
+  .maintwo__box_left_bg {
+    padding-left: 20px;
   }
-  .maintwo__right {
-    padding: 20px 20px 0px 0px;
+  .maintwo__box_right_bg {
+    padding-left: 20px;
   }
-  .maintwo__left_hover {
-    padding-top: 100px;
-    padding-left: 45px;
+  .maintwo__box_left_bg_img {
+    width: 130px;
+    height: 186px;
   }
-  .maintwo__right_hover {
-    padding-top: 100px;
-    padding-left: 45px;
-  }
-  .maintwo__left_bg {
-    padding-left: 25px;
-  }
-  .maintwo__right_bg {
-    padding-left: 25px;
-  }
-  .maintwo__left_bg_desc {
-    font-size: 16px;
-  }
-  .maintwo__left_bg_img {
-    width: 170px;
-    height: 230px;
-  }
-  .maintwo__right_bg_desc {
-    font-size: 16px;
-  }
-  .maintwo__right_bg_img {
-    width: 170px;
-    height: 230px;
+  .maintwo__box_right_bg_img {
+    width: 130px;
+    height: 186px;
   }
 }
 
 @media screen and (max-width: 376px) {
-  .maintwo__left {
-    padding: 0;
+  .maintwo__box_left_hover {
+    padding-top: 70px;
+    padding-left: 35px;
   }
-  .maintwo__right {
-    padding: 0;
+  .maintwo__box_left_bg {
+    padding-left: 15px;
   }
-  .maintwo__left_hover {
-    padding-top: 90px;
-    padding-left: 0px;
-    width: 100%;
+  .maintwo__box_right_bg {
+    padding-left: 15px;
   }
-  .maintwo__right_hover {
-    width: 100%;
-    padding-top: 90px;
-    padding-left: 0px;
+  .maintwo__box_left_bg_img {
+    width: 120px;
+    height: 176px;
   }
-  .maintwo__left_hover_h2 {
-    margin-left: 18px;
-  }
-  .maintwo__left_hover_desc {
-    padding-left: 18px;
-  }
-  .maintwo__left_hover_img {
-    margin-left: 18px;
-  }
-  .maintwo__right_hover_h2 {
-    margin-left: 18px;
-  }
-  .maintwo__right_hover_desc {
-    padding-left: 18px;
-  }
-  .maintwo__right_hover_img {
-    margin-left: 18px;
-  }
-  .maintwo__left_bg {
-    padding: 0;
-  }
-  .maintwo__right_bg {
-    padding: 0;
-  }
-  .maintwo__left_bg_desc {
-    font-size: 13px;
-    padding-left: 18px;
-  }
-  .maintwo__left_bg_img {
-    width: 130px;
-    height: 180px;
-  }
-  .maintwo__right_bg_desc {
-    font-size: 13px;
-    padding-left: 18px;
-  }
-  .maintwo__right_bg_img {
-    width: 130px;
-    height: 180px;
+  .maintwo__box_right_bg_img {
+    width: 120px;
+    height: 176px;
   }
 }
-
-@media screen and (max-width: 350px) {
-  .maintwo__left_bg_desc {
-    font-size: 14px;
-  }
-  .maintwo__left_bg_img {
-    width: 130px;
-    height: 170px;
-  }
-  .maintwo__right_bg_desc {
-    font-size: 14px;
-  }
-  .maintwo__right_bg_img {
-    width: 130px;
-    height: 170px;
-  }
-}
-/* # sourceMappingURL=MainTwo.css.map */
+/*# sourceMappingURL=MainTwo.css.map */

@@ -13,6 +13,7 @@ import MainTen from "../../Components/MainTen/MainTen";
 import MainThree from "../../Components/MainThree/MainThree";
 import MainTwo from "../../Components/MainTwo/MainTwo";
 import "../Home/Home.scss";
+import Message from "../../Components/message/message";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <MainEleven />
 
       <Footer />
+<Message/>
     </div>
   );
 };

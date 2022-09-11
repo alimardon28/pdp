@@ -47,6 +47,13 @@ const direction = [
     num: "2",
     avatar: pdp,
   },
+  ,
+  {
+    id: 8,
+    direction: ".NET Backend",
+    num: "3",
+    avatar: ecma,
+  },
 ];
 
 export default direction;

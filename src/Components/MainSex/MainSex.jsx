@@ -7,19 +7,9 @@ import personal_api from "../../API/personal";
 import { useRef } from "react";
 
 const MainSex = () => {
-  const [personal, setPersonal] = useState(personal_api);
-  const [point, setPoint] = useState(0);
+  const [personal] = useState(personal_api);
 
-  const prevPerson = () => {
-    if(point ===  personal.id){
-console.log('work');
-    }
-  };
-  const nextPerson = () => {
-    if(point ===  personal.id){
-      console.log('fork');
-          }
-  };
+
 
   return (
     <div className="mainsex">
@@ -60,9 +50,9 @@ console.log('work');
           </div>
           <div className="mainsex__right">
             <ul className="mainsex__right_ul">
-              {personal?.map((data, personIndex) => {
+              {personal?.map((data) => {
                 return (
-                  <li className="mainsex__right_ul_li" key={data.id} id={personIndex}>
+                  <li className="mainsex__right_ul_li" key={data.id} >
                     <h2 className="mainsex__right_ul_li_title">
                       {data.personal_title}
                     </h2>
