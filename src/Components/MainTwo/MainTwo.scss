@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  &__container {
+  &__box {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,36 +11,36 @@
 
   //   maintwo left style start
 
-  &__left {
+  &__box_left {
     position: relative;
     top: 0;
     padding: 30px 30px 0px 0px;
     background-color: rgb(250, 248, 248);
     cursor: pointer;
   }
-  &__left:hover &__left_bg {
+  &__box_left:hover &__box_left_bg {
     background: rgb(39, 179, 14);
     opacity: 1;
   }
-  &__left_hover {
+  &__box_left_hover {
     padding-top: 100px;
     cursor: pointer;
     padding-left: 65px;
   }
-  &__left_hover:hover {
+  &__box_left_hover:hover {
     display: none;
   }
-  &__left_hover_img {
+  &__box_left_hover_img {
     width: 27px;
     height: 32px;
   }
-  &__left_hover_h2 {
+  &__box_left_hover_h2 {
     margin: 0;
     padding-top: 25px;
     font-family: sans-serif;
     font-size: 30px;
   }
-  &__left_hover_desc {
+  &__box_left_hover_desc {
     margin: 0;
     padding-top: 15px;
     font-size: 15px;
@@ -48,7 +48,7 @@
     font-family: sans-serif;
     padding-bottom: 65px;
   }
-  &__left_bg {
+  &__box_left_bg {
     position: absolute;
     top: 0;
     opacity: 0;
@@ -60,13 +60,13 @@
     height: 100%;
     padding-left: 65px;
   }
-  &__left_bg_desc {
+  &__box_left_bg_desc {
     color: #fff;
     font-family: sans-serif;
     font-size: 20px;
     padding-bottom: 65px;
   }
-  &__left_bg_img {
+  &__box_left_bg_img {
     width: 175px;
     height: 226px;
   }
@@ -74,7 +74,7 @@
   //   maintwo left style end
 
   //   maintwo right style start
-  &__right {
+  &__box_right {
     position: relative;
     top: 0;
     padding: 30px 30px 0px 0px;
@@ -82,29 +82,29 @@
     margin-left: 3px;
     cursor: pointer;
   }
-  &__right:hover &__right_bg {
+  &__box_right:hover &__box_right_bg {
     background: rgb(39, 179, 14);
     opacity: 1;
   }
-  &__right_hover {
+  &__box_right_hover {
     padding-top: 100px;
     padding-left: 65px;
     cursor: pointer;
   }
-  &__right_hover:hover {
+  &__box_right_hover:hover {
     display: none;
   }
-  &__right_hover_img {
+  &__box_right_hover_img {
     width: 36px;
     height: 36px;
   }
-  &__right_hover_h2 {
+  &__box_right_hover_h2 {
     margin: 0;
     padding-top: 25px;
     font-family: sans-serif;
     font-size: 30px;
   }
-  &__right_hover_desc {
+  &__box_right_hover_desc {
     margin: 0;
     padding-top: 15px;
     font-size: 15px;
@@ -113,7 +113,7 @@
     padding-bottom: 65px;
   }
 
-  &__right_bg {
+  &__box_right_bg {
     position: absolute;
     top: 0;
     opacity: 0;
@@ -124,27 +124,27 @@
     width: 100%;
     height: 100%;
   }
-  &__right_bg_desc {
+  &__box_right_bg_desc {
     color: #fff;
     font-family: sans-serif;
     font-size: 20px;
     padding-bottom: 65px;
     margin: 0;
   }
-  &__right_bg_img {
+  &__box_right_bg_img {
     width: 175px;
     height: 267px;
   }
 
   //   maintwo right style end
 
-  &__left:hover &__btn_svg {
+  &__box_left:hover &__box_btn_svg {
     fill: rgb(49, 196, 0);
   }
-  &__right:hover &__btn_svg {
+  &__box_right:hover &__box_btn_svg {
     fill: rgb(49, 196, 0);
   }
-  &__btn {
+  &__box_btn {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -161,195 +161,197 @@
     justify-content: center;
     background: #fff;
   }
-  &__btn_svg {
+  &__box_btn_svg {
     fill: #424242;
     width: 20px;
   }
 
   @media screen and (max-width: 1141px) {
-    &__left_bg_desc {
+    &__box_left_bg_desc {
       font-size: 17px;
     }
-    &__right_bg_desc {
+    &__box_right_bg_desc {
       font-size: 17px;
     }
   }
   @media screen and (max-width: 769px) {
-    &__left_bg {
+    &__box_left_bg {
       padding-left: 30px;
     }
-    &__left_bg_desc {
+    &__box_left_bg_desc {
       font-size: 16px;
       padding-bottom: 30px;
     }
-    &__left_bg_img {
+    &__box_left_bg_img {
       width: 140px;
       height: 180px;
     }
-    &__right_bg {
+    &__box_right_bg {
       padding-left: 30px;
     }
-    &__right_bg_desc {
+    &__box_right_bg_desc {
       padding-bottom: 30px;
     }
-    &__right_bg_img {
+    &__box_right_bg_img {
       width: 140px;
       height: 200px;
     }
   }
   @media screen and (max-width: 719px) {
-    &__container {
+    &__box {
       display: flex;
       flex-direction: column;
       width: 100%;
     }
-    &__left {
+    &__box_left {
       width: 100%;
       margin-bottom: 40px;
     }
-    &__left_bg_desc {
+    &__box_left_bg_desc {
       font-size: 20px;
     }
-    &__left_bg_img {
+    &__box_left_bg_img {
       width: 180px;
       height: 230px;
     }
 
-    &__right {
+    &__box_right {
       width: 100%;
       margin-bottom: 20px;
     }
-    &__right_bg_desc {
+    &__box_right_bg_desc {
       font-size: 20px;
     }
-    &__right_bg_img {
+    &__box_right_bg_img {
       width: 180px;
       height: 230px;
     }
   }
   @media screen and (max-width: 507px) {
-    &__left_bg_desc {
+    &__box_left_bg_desc {
       font-size: 17px;
     }
-    &__left_bg_img {
+    &__box_left_bg_img {
       width: 170px;
       height: 200px;
     }
-    &__right_bg_desc {
+    &__box_right_bg_desc {
       font-size: 17px;
     }
-    &__right_bg_img {
+    &__box_right_bg_img {
       width: 170px;
       height: 200px;
     }
   }
   @media screen and (max-width: 426px) {
-    &__left {
+    &__box_left {
       padding: 20px 20px 0px 0px;
     }
-    &__right {
+    &__box_right {
       padding: 20px 20px 0px 0px;
     }
-    &__left_hover {
+    &__box_left_hover {
       padding-top: 100px;
       padding-left: 45px;
     }
-    &__right_hover {
+    &__box_right_hover {
       padding-top: 100px;
       padding-left: 45px;
     }
-    &__left_bg {
-      padding-left: 25px;
+    &__box_left_bg {
+      padding-left: 0;
     }
-    &__right_bg {
-      padding-left: 25px;
+    &__box_right_bg {
+      padding-left: 0px;
     }
-    &__left_bg_desc {
-      font-size: 16px;
+    &__box_left_bg_desc {
+      font-size: 15px;
+      padding-left: 16px;
     }
-    &__left_bg_img {
+    &__box_left_bg_img {
       width: 170px;
       height: 230px;
     }
-    &__right_bg_desc {
-      font-size: 16px;
+    &__box_right_bg_desc {
+      font-size: 15px;
+      padding-left: 16px;
     }
-    &__right_bg_img {
+    &__box_right_bg_img {
       width: 170px;
       height: 230px;
     }
   }
   @media screen and (max-width: 376px) {
-    &__left {
+    &__box_left {
       padding: 0;
     }
-    &__right {
+    &__box_right {
       padding: 0;
     }
-    &__left_hover {
+    &__box_left_hover {
       padding-top: 90px;
       padding-left: 0px;
       width: 100%;
     }
-    &__right_hover {
+    &__box_right_hover {
       width: 100%;
       padding-top: 90px;
       padding-left: 0px;
     }
-    &__left_hover_h2 {
+    &__box_left_hover_h2 {
       margin-left: 18px;
     }
-    &__left_hover_desc {
+    &__box_left_hover_desc {
       padding-left: 18px;
     }
-    &__left_hover_img {
+    &__box_left_hover_img {
       margin-left: 18px;
     }
-    &__right_hover_h2 {
+    &__box_right_hover_h2 {
       margin-left: 18px;
     }
-    &__right_hover_desc {
+    &__box_right_hover_desc {
       padding-left: 18px;
     }
-    &__right_hover_img {
+    &__box_right_hover_img {
       margin-left: 18px;
     }
-    &__left_bg {
+    &__box_left_bg {
       padding: 0;
     }
-    &__right_bg {
+    &__box_right_bg {
       padding: 0;
     }
 
-    &__left_bg_desc {
+    &__box_left_bg_desc {
       font-size: 13px;
       padding-left: 18px;
     }
-    &__left_bg_img {
+    &__box_left_bg_img {
       width: 130px;
       height: 180px;
     }
-    &__right_bg_desc {
+    &__box_right_bg_desc {
       font-size: 13px;
       padding-left: 18px;
     }
-    &__right_bg_img {
+    &__box_right_bg_img {
       width: 130px;
       height: 180px;
     }
   }
   @media screen and (max-width: 350px) {
-    &__left_bg_desc {
+    &__box_left_bg_desc {
       font-size: 14px;
     }
-    &__left_bg_img {
+    &__box_left_bg_img {
       width: 130px;
       height: 170px;
     }
-    &__right_bg_desc {
+    &__box_right_bg_desc {
       font-size: 14px;
     }
-    &__right_bg_img {
+    &__box_right_bg_img {
       width: 130px;
       height: 170px;
     }
