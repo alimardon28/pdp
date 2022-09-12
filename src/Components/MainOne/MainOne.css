@@ -20,6 +20,7 @@
 
 .mainone__ul_li {
   list-style: none;
+  position: relative;
 }
 
 .mainone__ul_title {
@@ -75,7 +76,10 @@
   position: fixed;
   width: 100%;
   min-height: 100vh;
-  background: transparent;
+  left: 0%;
+  top: 12%;
+  padding-top: 10%;
+  background: rgba(0, 0, 0, 0.8);
   border: none;
   outline: none;
   display: -webkit-box;
@@ -88,6 +92,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 10;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .mainone__ul_li_dialog_box {
@@ -109,15 +115,12 @@
 }
 
 .mainone__ul_li_dialog_btn {
-  margin: 0;
   padding: 5px;
-  font-size: 20px;
+  font-size: 30px;
   background: transparent;
-  color: #000;
+  color: #fff;
   outline: none;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
   margin-left: 15px;
   border: none;
 }
@@ -155,10 +158,36 @@
   }
 }
 
+@media screen and (max-width: 792px) {
+  .mainone__ul_li_dialog_box {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .mainone__ul_li_dialog_box {
+    width: 500px;
+  }
+}
+
 @media screen and (max-width: 594px) {
   .mainone__ul_title {
     font-size: 50px;
     line-height: 60px;
+  }
+  .mainone__ul_li_dialog_box {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .mainone__ul_li_dialog_box {
+    width: 380px;
+  }
+  .mainone__ul_li_dialog_btn {
+    padding: 3px;
+    font-size: 26px;
+    margin-left: 10px;
   }
 }
 
@@ -172,6 +201,13 @@
   }
 }
 
+@media screen and (max-width: 426px) {
+  .mainone__ul_li_dialog_box {
+    width: 340px;
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 376px) {
   .mainone__ul_title {
     font-size: 34px;
@@ -180,6 +216,16 @@
   }
   .mainone__ul_li_homeimg {
     width: 330px;
+  }
+  .mainone__ul_li_dialog_box {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .mainone__ul_li_dialog_box {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=MainOne.css.map */

@@ -199,6 +199,9 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
   }
   &__box_list_item_acardion > img {
     width: 25px;
@@ -207,12 +210,12 @@
   &__box_list_item_acardions {
     height: 0;
     opacity: 0;
-    transition: all 0.4s ease-in;
+    transition: all 0.3s ease-in;
   }
   &__box_list_item_acardions_show {
     height: 100px;
     opacity: 1;
-    transition: all 0.4s ease-in;
+    transition: all 0.3s ease-in;
   }
 
   &__box_list_item_acardions_desc {
@@ -266,6 +269,10 @@
       font-size: 25px;
       line-height: 35px;
     }
+    &__box_list_item_acardions_desc {
+      font-size: 17px;
+      line-height: 28px;
+    }
     &__box_list_item_items_box_desc {
       font-size: 17px;
       line-height: 25px;
@@ -297,6 +304,10 @@
       font-size: 18px;
       line-height: 27px;
     }
+    &__box_list_item_acardions_desc {
+      font-size: 16px;
+      line-height: 25px;
+    }
   }
   @media screen and (max-width: 749px) {
     &__box_list_item_box1 {
@@ -308,6 +319,10 @@
     &__box_list_item_box1_btn {
       margin-top: 30px;
       width: 251px;
+    }
+    &__box_list_item_acardions_desc {
+      font-size: 15px;
+      line-height: 23px;
     }
   }
   @media screen and (max-width: 644px) {
@@ -328,6 +343,9 @@
     }
   }
   @media screen and (max-width: 426px) {
+    &__box_list {
+      padding: 40px;
+    }
     &__box_ul_li_title {
       font-size: 45px;
       line-height: 55px;
@@ -342,8 +360,15 @@
       font-size: 22px;
       line-height: 28px;
     }
+    &__box_list_item_acardions_desc {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
-  @media screen and (max-width: 364px) {
+  @media screen and (max-width: 376px) {
+    &__box_list {
+      padding: 30px;
+    }
     &__box_ul_li_title {
       font-size: 38px;
       line-height: 48px;
@@ -361,6 +386,9 @@
     &__box_list_item_box1_title {
       font-size: 20px;
       line-height: 24px;
+    }
+    &__box_list_item_acardions_show {
+      height: 140px;
     }
   }
 }

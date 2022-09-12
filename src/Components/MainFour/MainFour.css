@@ -191,6 +191,16 @@
   height: 27px;
 }
 
+.mainfour__top_ul_li_bottom_images_img::after:nth-child(8) {
+  content: url(../../assets/pdpApiimagesfile/download-7.png);
+  width: 125px;
+  background: #000;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (max-width: 1191px) {
   .mainfour__top_ul_li {
     width: 540px;
