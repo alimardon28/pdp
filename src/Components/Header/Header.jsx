@@ -56,7 +56,8 @@ const Header = () => {
               </a>
               <a
                 className="header__nav_ul_li_a header__nav_ul_li_link"
-                href="#"
+                href="https://portfolio002.netlify.app/"
+                target="_blank"
               >
                 unicorn
                 <span></span>
